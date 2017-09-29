@@ -1,3 +1,4 @@
 node_modules
 *.swp
-
+pub/style.css
+pub/bundle.js

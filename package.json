@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
-    "sass": "node scss/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass scss -o pub",
+    "sass-watch": "node-sass -w scss -o pub",
+    "build": "webpack",
+    "build-watch": "webpack -w"
   },
   "repository": {
     "type": "git",
